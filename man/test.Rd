@@ -2,13 +2,25 @@
 % Please edit documentation in R/test.R
 \name{test}
 \alias{test}
-\title{Title}
+\title{This is the title}
 \usage{
 test(x, y)
 }
 \arguments{
-\item{y}{}
+\item{x}{A number.}
+
+\item{y}{A \strong{number}.}
+}
+\value{
+The sum \code{x + y}.
 }
 \description{
-Title
+This will be the description.
+}
+\details{
+This will be more details.
+}
+\examples{
+test(4, 5)
+test(3:4, 7:8)
 }
